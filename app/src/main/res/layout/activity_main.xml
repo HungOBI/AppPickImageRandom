@@ -56,7 +56,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginBottom="40dp"
-        android:src="@drawable/anh3" />
+        android:src="@drawable/img3" />
 
     <TextView
         android:id="@+id/textviewHeadLine"
@@ -80,7 +80,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:scaleType="fitXY"
-        android:src="@drawable/anh2"
+        android:src="@drawable/img2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textviewHeadLine"
