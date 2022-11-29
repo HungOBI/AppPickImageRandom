@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppPickImageRandom</string>
+    <string-array name="arr_IMG">
+        <item>anh1</item>
+        <item>anh2</item>
+        <item>anh3</item>
+        <item>anh4</item>
+        <item>anh5</item>
+        <item>anh6</item>
+        <item>anh7</item>
+        <item>anh8</item>
+        <item>anh9</item>
+        <item>anh10</item>
+        <item>anh11</item>
+        <item>anh12</item>
+        <item>anh13</item>
+        <item>anh14</item>
+        <item>anh15</item>
+    </string-array>
+</resources>
