@@ -31,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         int width = displayMetrics.widthPixels;
-        int count = 0;
+        int k = 0;
         int column = 3;
         int row = (int) Math.ceil(arrIMG.length / 3);
 
@@ -40,7 +40,7 @@ public class MainActivity2 extends AppCompatActivity {
             for (int j = 0; j < column; j++) {
                 TableRow.LayoutParams layoutParams = new TableRow.LayoutParams(width / 5,width / 3);
                 ImageView imageView = new ImageView(this);
-                int resourceImage = getResources().getIdentifier(arrIMG[count], "drawable", getPackageName());
+                int resourceImage = getResources().getIdentifier(arrIMG[k], "drawable", getPackageName());
                 imageView.setImageResource(resourceImage);
                 imageView.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -55,7 +55,7 @@ public class MainActivity2 extends AppCompatActivity {
                 imageView.setLayoutParams(layoutParams);
                 imageView.setScaleType(ImageView.ScaleType.FIT_XY);
                 tableRow.addView(imageView);
-                count++;
+                k++;
             }
             tableLayout.addView(tableRow);
         }
